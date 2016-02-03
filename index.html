@@ -1,1 +1,158 @@
-Hello World
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team BDE - ragni_b</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="favicon.ico" />
+
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</head>
+<body style="font-size: 17px; font-family: 'Open Sans', sans-serif;">
+<div class="container">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">Team BDE Bastien Ragni</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li><a href="#team">L'équipe</a></li>
+                    <li><a href="#agenda">Le programme</a></li>
+                    <li><a href="#end">Conclusion</a></li>
+                    <li><a href="#">Haut de page</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><br>
+    <div class="page-header">
+        <h1>L'équipe de Bastien Ragni</h1>
+        <span style="color: #717171;">Team BDE EPITECH Marseille</span>
+    </div>
+    <br>
+    <div class="list-group" style="width: 250px;">
+        <a href="#team" class="list-group-item">L'équipe</a>
+        <a href="#agenda" class="list-group-item">Le programme</a>
+        <a href="#end" class="list-group-item">Conclusion</a>
+    </div><br><br>
+
+    <div id="intro">
+        <h2>Bienvenue !</h2>
+        Bienvenue sur cette page promotionelle, ayant pour but de présenter l'équipe de <b>Bastien Ragni</b> pour le Bureau Des Etudiants d'EPITECH Marseille.
+        Cette page sert également à y présenter le programme de l'équipe, et vous y retrouverez toutes les modifications apportées au fur et à mesure.<br><br>
+        Rendez-vous le <b>lundi 8 février</b> pour voter !
+    </div>
+    <hr><br>
+
+    <div id="team">
+        <h2>L'équipe</h2>
+        Notre équipe est composée de cinq membres aux rôles différents :<br><br>
+        <div style="text-align: center;">
+            <a href="http://intra.epitech.eu:/user/ragni_b" target="_blank">
+                <img src="https://cdn.local.epitech.eu/userprofil/profilview/ragni_b.jpg" class="img-thumbnail" alt="ragni_b">
+            </a><br><br>
+            <b>Bastien RAGNI</b> (ragni_b)<br><b>Président</b>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-3" style="width: 25%;">
+                <a href="http://intra.epitech.eu:/user/hochbe_s" target="_blank">
+                    <img src="https://cdn.local.epitech.eu/userprofil/profilview/hochbe_s.jpg" style="width: 140px;" class="img-thumbnail" alt="ragni_b">
+                </a><br>
+                <span style="font-size: 15px;">
+                    <b>Sacha HOCHBERG</b> (hochbe_s)<br>Vice-président
+                </span>
+            </div>
+            <div class="col-md-3" style="width: 25%;">
+                <a href="http://intra.epitech.eu:/user/chesno_a" target="_blank">
+                    <img src="https://cdn.local.epitech.eu/userprofil/profilview/chesno_a.jpg" style="width: 140px;" class="img-thumbnail" alt="ragni_b">
+                </a><br>
+                <span style="font-size: 15px;">
+                    <b>Bilal CHESNOY</b> (chesno_a)<br>Trésorier
+                </span>
+            </div>
+            <div class="col-md-3" style="width: 25%;">
+                <a href="http://intra.epitech.eu:/user/reyre_a" target="_blank">
+                    <img src="https://cdn.local.epitech.eu/userprofil/profilview/reyre_a.jpg" style="width: 140px;" class="img-thumbnail" alt="ragni_b">
+                </a><br>
+                <span style="font-size: 15px;">
+                    <b>Anthony REYRE</b> (reyre_a)<br>Secrétaire
+                </span>
+            </div>
+            <div class="col-md-3" style="width: 25%;">
+                <a href="http://intra.epitech.eu:/user/salah-_m" target="_blank">
+                    <img src="https://cdn.local.epitech.eu/userprofil/profilview/salah-_m.jpg" style="width: 140px;" class="img-thumbnail" alt="ragni_b">
+                </a><br>
+                <span style="font-size: 15px;">
+                    <b>Mehdi SALAH-EDDINE</b> (salah-_m)<br>Responsable des évenements
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr><br>
+    <div id="agenda">
+        <h2>Notre programme</h2>
+        Voici désormais le plus important : le programme de votre équipe !<br><br>
+        <ul>
+           <li>Établir un partenariat avec <b>Razer</b></li>
+            <li>Nouvelle <b>GameCube</b> avec manettes</li>
+            <li>Une semaine sur deux soirée; l'autre semaine, LAN</li>
+            <li>Partenariat avec l'école d'infirmières</li>
+            <li>Rediffusion de <b>rencontres sportives</b> sur demande</li>
+            <li>Recrutement de <b>streamers volontaires</b> pour les LAN</li>
+            <li>Organisation de sorties (Aix, festivals...)</li>
+            <li>Organisation de week-ends</li>
+            <li>Mardi <b>cookies et croissants</b> à l'occasion</li>
+            <li>Classement général de <b>Smash4</b>, <b>Melee</b> et <b>babyfoot</b> affiché dans le BDE</li>
+        </ul>
+    </div>
+    <hr><br>
+    <div id="end">
+        <h2>Conclusion</h2><br>
+        <div class="row">
+            <div class="col-md-6">
+                Merci d'avoir pris le temps de lire notre programme, ce site sera régulièrement mis à jour pour vous tenir au courant des prochaines modifications du programme.<br><br>
+                <div class="well">
+                    Et n'oubliez pas, rendez-vous <b>lundi 8 février</b> pour voter la team BDE de <b>Bastien RAGNI</b> !
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/roxan.png" style="width: 400px;" class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="modal-footer">
+        <a href="#">Remonter en haut</a><br>
+        <span style="font-size: 12px;">
+            Page promotionelle par <a href="http://intra.epitech.eu/user/roman_p" target="_blank">Paul ROMAN</a>
+        </span>
+    </div>
+</div>
+</body>
+</html>
